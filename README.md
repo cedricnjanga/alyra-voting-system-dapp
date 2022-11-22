@@ -11,6 +11,7 @@ npx hardhat --network localhost run scripts/deploy.js # in another terminal
 
 #3
 cd frontend
+npm install # To install dependencies
 npm run dev
 ```
 
