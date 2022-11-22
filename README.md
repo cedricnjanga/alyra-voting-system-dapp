@@ -1,13 +1,21 @@
-# Sample Hardhat Project
+# Voting Sytem Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+To start project run the following commands in three separate terminals:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+#1
 npx hardhat node
-npx hardhat run scripts/deploy.js
+
+#2
+npx hardhat --network localhost run scripts/deploy.js # in another terminal
+
+#3
+cd frontend
+npm run dev
 ```
+
+
+Main dependencies:
+
+- hardhat
+- nextjs (react app)
